@@ -1,5 +1,22 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        //Öncelikle değişkenlerimizi tanımlayalım.
+        int a,b,c;
+        double u, ucgenAlan;
+        //Scanner sınıfımızı getirelim.
+        Scanner triangle = new Scanner(System.in);
+        //Değişkenlerimize kullanıcı değeri girdiriyoruz.
+        System.out.println("1. kenar uzunluğunu giriniz: ");
+        a = triangle.nextInt();
+        System.out.println("2. kenar uzunluğunu giriniz: ");
+        b = triangle.nextInt();
+        System.out.println("3. kenar uzunluğunu giriniz: ");
+        c = triangle.nextInt();
+        u = (a+b+c)/2;
+        //Formülümüz alan*alan=u*(u-a)*(u-b)*(u-c)
+        ucgenAlan = Math.sqrt(u*(u-a)*(u-b)*(u-c));
+        System.out.println("Üçgenimizin alanı: " + ucgenAlan);
+
     }
 }
