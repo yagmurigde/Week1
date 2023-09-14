@@ -7,11 +7,11 @@ public class Main {
         //Scanner sınıfımızı getirelim.
         Scanner triangle = new Scanner(System.in);
         //Değişkenlerimize kullanıcı değeri girdiriyoruz.
-        System.out.println("1. kenar uzunluğunu giriniz: ");
+        System.out.print("1. kenar uzunluğunu giriniz: ");
         a = triangle.nextInt();
-        System.out.println("2. kenar uzunluğunu giriniz: ");
+        System.out.print("2. kenar uzunluğunu giriniz: ");
         b = triangle.nextInt();
-        System.out.println("3. kenar uzunluğunu giriniz: ");
+        System.out.print("3. kenar uzunluğunu giriniz: ");
         c = triangle.nextInt();
         u = (a+b+c)/2;
         //Formülümüz alan*alan=u*(u-a)*(u-b)*(u-c)
