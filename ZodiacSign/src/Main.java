@@ -64,9 +64,11 @@ public class Main {
                  System.out.print("Your zodiac sign: Scorpio");} else {
                  System.out.print("Your zodiac sign: Sagittarius");}} else {
                  System.out.print("Error");}}
-        else
+        else if (month==12)
              {if(day>=1 && day<=31) {if (day <=21) {
                  System.out.print("Your zodiac sign: Sagittarius");} else {
                  System.out.print("Your zodiac sign: Capricorn");}} else {
                  System.out.print("Error");}}
-    }}
+        else {
+            System.out.print("Error");
+    }}}
