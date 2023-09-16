@@ -52,3 +52,10 @@ public class Main {
             System.out.println("Error. Try again.");}}}
 
 
+=======
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+    }
+}
+>>>>>>> origin/main
