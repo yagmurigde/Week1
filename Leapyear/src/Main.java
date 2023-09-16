@@ -27,3 +27,8 @@ public class Main {
 
 
 
+<<<<<<<< HEAD:Leapyear/src/Main.java
+========
+    }
+}
+>>>>>>>> origin/main:ArtikYil/src/Main.java
