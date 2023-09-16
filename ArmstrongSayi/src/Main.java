@@ -5,8 +5,6 @@ public class Main {
         int number;
         int toplam = 0;
 
-
-
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Sayı giriniz: ");
