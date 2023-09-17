@@ -5,11 +5,11 @@ public class Main {
 
         int number;
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         //Kullanıcı değeri alıyoruz.
         System.out.print("Insert number: ");
-        number = scanner.nextInt();
+        number = input.nextInt();
 
         // Üst kısımda üçgen örneğiyle aynı işlemi yapıyoruz.
         for (int i = 0; i <= number; i++) {
