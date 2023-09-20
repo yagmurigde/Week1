@@ -1,15 +1,19 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        /*Soru: Kullanıcıdan 3 tane sayı (a, b, c) alıp bu sayıları işlem
-        sırasına göre işleyen bir program yazın.
-        İşlem sırası şöyle olsun: a+b*c-b. İşlem tamamladıktan sonra sonucu ekrana
-        yazdırın.*/
-        /*Örnek: Kullanıcıdan alınan sayılar 10, 2 ve 3 olsun.
-        Yapılacak işlem ise 10+2*3-2 şeklinde olsun.*/
+        Scanner input = new Scanner(System.in);
+        int a, b, c;
 
-//İpucu 1: Kullanıcıdan veri almak için `Scanner` sınıfını kullanabilirsiniz.
+        System.out.print("a sayısını giriniz: ");
+        a= input.nextInt();
+        System.out.print("b sayısını giriniz: ");
+        b= input.nextInt();
+        System.out.print("c sayısını giriniz: ");
+        c= input.nextInt();
 
-//İpucu 2: Sonucu ekrana yazdırmak için `System.out.println()` metodunu kullanabilirsiniz.
+        int sonuc = a+b*c-b;
+        System.out.println(sonuc);
+
 
 
     }
